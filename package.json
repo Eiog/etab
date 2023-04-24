@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite build --watch --mode development",
+    "dev:web": "vite --mode web",
     "dev:firefox": "TARGET=firefox vite build --watch --mode development",
     "build": "vue-tsc --noEmit && vite build ",
     "build:firefox": "vue-tsc --noEmit && TARGET=firefox vite build",
